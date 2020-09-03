@@ -9,3 +9,4 @@ Hey guys! My name is Kailey and I am a Senior Communication Major from Argyle, T
 While I am not pursuing a career in writing or "digital" writing, I think that learning how to write on the web is so important. I have always loved writing and always try to take courses that help better my writing skills and I thought this course would be a great way to do that! 
 I am excited to learn more through this course and get to read everyones blog posts! 
 
+Oh and also, here is a webiste I love (shameless plug) https://www.a21.org/index.php?site=true!
