@@ -3,7 +3,7 @@
 @import "{{ site.theme }}";
 
 a {  
- color: #FFE4C4; 
+ color: #F08080; 
 }
 
 .navigation_list {
@@ -13,8 +13,12 @@ a {
 
 navigation_list-item a {
     padding: 10px;
+    background: #FAEBD7;
+    color: white;
     font-weight: bold;
     border-radius: 20px;
  }
  
- 
+ .navigation_list-item a:hover {
+    background-color: #CD5C5C
+}
