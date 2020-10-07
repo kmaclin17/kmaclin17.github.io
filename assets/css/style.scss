@@ -6,18 +6,36 @@ a {
  color: #F08080; 
 }
 
-.navigation_list {
-    list-style:none;
-    padding: 0;
+// Define the style for our <li> tags:
+.navigation_list-item {
+  // inline-block makes each item sit next to each other instead of on a new
+  // line:
+  display: inline-block;
+  // Add some spacing between each list item:
+  margin-left: 5px;
 }
 
+// Define the style for our <ul> tag:
+.navigation_list {
+  // This turns off the list bullet:
+  list-style: none;
+  // This turns off the left spacing in front of each item:
+  padding-left: 0;
+}
+
+// Match the links inside our list items:
 .navigation_list-item a {
-    padding: 10px;
-    background: #E9967A;
-    color: white;
-    font-weight: bold;
-    border-radius: 20px;
- }
+  // Set the background color:
+  background: #E9967A;
+  // Add some space between the link text and the edge of the link:
+  padding: 10px;
+  // Set the text color to white:
+  color: white; // Could also set to #ffffff
+  // Set the font to bold:
+  font-weight: bold;
+  // Add some curve to the corners:
+  border-radius: 15px;
+}
  
 .navigation_list-item a:hover {
   // Turn the background orange:
