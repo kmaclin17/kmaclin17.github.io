@@ -11,7 +11,7 @@ a {
     padding: 0;
 }
 
-navigation_list-item a {
+.navigation_list-item a {
     padding: 10px;
     background: #FAEBD7;
     color: white;
@@ -19,6 +19,9 @@ navigation_list-item a {
     border-radius: 20px;
  }
  
-a: hover {
-    background-color: #CD5C5C;
+.navigation_list-item a:hover {
+  // Turn the background orange:
+  background: orange;
+  // Turn the underline off, for hovering:
+  text-decoration: none;
 }
