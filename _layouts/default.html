@@ -5,6 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	  
+	  .navigation_list-item {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.navigation_list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.navigation_list-item a {
+  background: #E9967A;
+  padding: 10px;
+  color: white; 
+  font-weight: bold;
+  border-radius: 15px;
+}
+ 
+.navigation_list-item a:hover {
+  background: orange;
+  text-decoration: none;
+}
+	  
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
@@ -73,30 +96,6 @@
       ga('create', '{{ site.google_analytics }}', 'auto');
       ga('send', 'pageview');
     </script>
-    {% endif %}
-	  
-.navigation_list-item {
-  display: inline-block;
-  margin-left: 5px;
-}
-
-.navigation_list {
-  list-style: none;
-  padding-left: 0;
-}
-
-.navigation_list-item a {
-  background: #E9967A;
-  padding: 10px;
-  color: white; 
-  font-weight: bold;
-  border-radius: 15px;
-}
- 
-.navigation_list-item a:hover {
-  background: orange;
-  text-decoration: none;
-}	  
-	  
+    {% endif %}	  	  
   </body>
 </html>
